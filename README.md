@@ -1,4 +1,4 @@
-## Laboratorio di Algoritmi e Strutture Dati 
+## Laboratorio di Algoritmi e Strutture Dati ##
 
 
 **ESERCIZIO 1**

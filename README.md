@@ -1,5 +1,5 @@
 ## Laboratorio di Algoritmi e Strutture Dati 
-* [ESERCIZIO 1](#ESERCIZIO 1)
+* [ESERCIZIO 1](#esercizio-1)
 * [ESERCIZIO 2](#ESERCIZIO 2)
 * [ESERCIZIO 3](#ESERCIZIO 3)
 * [ESERCIZIO 4](#ESERCIZIO 4)

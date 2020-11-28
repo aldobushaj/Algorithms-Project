@@ -31,42 +31,36 @@ l'esecuzione e riportare un fallimento dell’operazione
 
 **ESERCIZIO 1: SECONDO USO**
 * Implementare una funzione che:
-  * accetta in input un intero N e un qualunque array A di
-  interi
-  * verifica se A contiene due interi la cui somma è
-  esattamente N
-* Funzione DEVE avere complessità �(KlogK) (K= numero di
-elementi di A)
+  * Acetta in input un intero N e un qualunque array A di interi
+  * Verifica se A contiene due interi la cui somma è esattamente N
+  
+* Funzione **DEVE** avere complessità 𝜣(KlogK) (K= numero di elementi di A)
 
 * File sums.txt con 100 numeri interi
-* Gli interi sono scritti di seguito, ciascuno su una riga
-* Implementare un'applicazione che carica in un array A gli interi contenuti nel file integers.txt e, per ciascun intero N contenuto nel file sums.txt, verifica se esso è la somma di due elementi contenuti
-in A
-* Si aggiunga un commento sulle prestazioni di questo algoritmo alla
-relazione scritta per la prima parte dell’esercizio
+  * Gli interi sono scritti di seguito, ciascuno su una riga
+  
+* Implementare un'applicazione che carica in un array A gli interi contenuti nel file integers.txt e, per ciascun intero N contenuto nel file sums.txt, verifica se esso è la somma di due elementi contenuti in A
+* Si aggiunga un commento sulle prestazioni di questo algoritmo alla relazione scritta per la prima parte dell’esercizio
 
 ## ESERCIZIO 2
-* Si consideri il problema di determinare la distanza di edit tra due
-stringhe (Edit distance)
-* date due stringhe s1 e s2, non necessariamente della stessa
-lunghezza, determinare il minimo numero di operazioni necessarie
-per trasformare la stringa s2 in s1
+* Si consideri il problema di determinare la distanza di edit tra due stringhe (Edit distance)
+  * date due stringhe s1 e s2, non necessariamente della stessa lunghezza, determinare il minimo numero di operazioni necessarie per trasformare la stringa s2 in s1
+  
 * Operazioni disponibili:
   * cancellazione di un carattere
   * inserimento di un carattere
 
- Esempi:
- "casa" e "cassa" edit distance =1 (1 cancellazione)
- "casa" e "cara" edit distance =2 (1 cancellazione + 1
-inserimento)
- "tassa" e "passato" edit distance =4 (3 cancellazioni + 1
-inserimento)
- "pioppo" e "pioppo" edit distance =0
+ **_Esempi:_**
+   * "casa" e "cassa" edit distance =1 (1 cancellazione)
+   * "casa" e "cara" edit distance =2 (1 cancellazione + 1 inserimento)
+   * "tassa" e "passato" edit distance =4 (3 cancellazioni + 1 inserimento)
+   * "pioppo" e "pioppo" edit distance =0
 
-* Si implementi una versione ricorsiva della funzione
-edit_distance
- Sia la lunghezza di una stringa
- Sia la sottostringa di ottenuta ignorando il primo carattere di
+* Si implementi una versione ricorsiva della funzione **edit_distance**
+* Sia |s| la lunghezza di una stringa 
+* Sia _rest(s)_ la sottostringa di _s_ ottenuta ignorando il primo carattere di _s_
+
+Se 
 
 ```java
 |s|

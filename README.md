@@ -13,7 +13,7 @@ Implementare una libreria che offre i seguenti algoritmi di ordinamento:
 
 Ogni algoritmo va implementato in modo tale da poter essere utilizzato su un generico tipo T, infatti l'implementazione degli algoritmi deve permettere di specificare il criterio secondo cui ordinare i dati.
 
-*_Suggerimento:_* Usare l'interfaccia java.util.Comparator (o, nel caso di una implementazione C, un puntatore a funzione)
+**_Suggerimento:_** Usare l'interfaccia java.util.Comparator (o, nel caso di una implementazione C, un puntatore a funzione)
 
 **ESERCIZIO 1: PRIMO USO**
 
@@ -31,10 +31,10 @@ l'esecuzione e riportare un fallimento dell’operazione
 
 **ESERCIZIO 1: SECONDO USO**
 * Implementare una funzione che:
-* accetta in input un intero N e un qualunque array A di
-interi
-* verifica se A contiene due interi la cui somma è
-esattamente N
+  * accetta in input un intero N e un qualunque array A di
+  interi
+  * verifica se A contiene due interi la cui somma è
+  esattamente N
 * Funzione DEVE avere complessità �(KlogK) (K= numero di
 elementi di A)
 

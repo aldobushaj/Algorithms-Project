@@ -98,59 +98,54 @@ File correctme.txt :
 2. Si sperimenti il funzionamento dell'applicazione e si riporti in una breve relazione (circa una pagina) i risultati degli esperimenti
 
 ## ESERCIZIO 3
-• Si implementi la struttura dati Coda con priorità
+* Si implementi la struttura dati Coda con priorità
 
-• La struttura dati
-  • deve gestire tipi generici
-  • consentire un numero qualunque e non noto a priori di elementi
+* La struttura dati
+  * deve gestire tipi generici
+  * consentire un numero qualunque e non noto a priori di elementi
 
 ## ESERCIZIO 4
-• Si implementi una libreria che realizza la struttura dati Grafo in modo che sia
-ottimale per dati sparsi
-• La struttura deve consentire di rappresentare sia grafi diretti che grafi non
-diretti
-• suggerimento: un grafo non diretto può essere rappresentato usando
-un'implementazione per grafi diretti in modo che:
-• per ogni arco (a,b), etichettato w, presente nel grafo, è presente
-nel grafo anche l'arco (b,a), etichettato w
-• il grafo dovrà mantenere l'informazione che specifica se è diretto o no
 
-ESERCIZIO 4
-• Implementare:
-• le funzioni essenziali per la struttura dati
-Grafo
-• una funzione che restituisce il peso del grafo
-• se il grafo non è pesato, la funzione
-può terminare con un errore
+Per qesto esercizio:
 
-ESERCIZIO 4 - USO DELLA
-LIBRERIA
-• Si implementi l'algoritmo di Prim per la determinazione
-della minima foresta ricoprente del grafo
-• utilizzare la struttura dati Coda con priorità dell’esercizio 3
-• Se il grafo è costituito da una sola componente connessa,
-l'algoritmo restituirà un albero, altrimenti restituirà una
-foresta costituita dai minimi alberi ricoprenti di ciascuna
-componente connessa
+1. Si implementi una libreria che realizza la struttura dati Grafo in modo che sia ottimale per dati sparsi
 
-ESERCIZIO 4 - USO DELLA
-LIBRERIA E DI PRIM
-• Utilizzare l’algoritmo di Prim sul file italian_dist_graph.csv
-• distanze in metri tra varie località italiane
-• Formato CSV standard: campi separati da virgole, record separati da fine riga (\n)
-• Ogni record contiene i seguenti dati:
-• località 1: (tipo stringa) nome della località "sorgente". La stringa può contenere
-spazi, non può contenere virgole;
-• località 2: (tipo stringa) nome della località "destinazione". La stringa può
-contenere spazi, non può contenere virgole;
-• distanza: (tipo float) distanza in metri tra le due località.
+2. La struttura deve consentire di rappresentare sia grafi diretti che grafi non diretti
 
-ESERCIZIO 4 - USO DELLA
-LIBRERIA E DI PRIM
-• Interpretare le informazioni del file come archi non diretti
-• il file è stato creato a partire da un dataset poco accurato
-• Dati riportati contengono inesattezze e
-imprecisioni
-• Risultato atteso: minima foresta ricoprente con 18.640
-nodi, 18.637 archi (non orientati) e di peso complessivo
-di circa 89.939,913 Km
+  * _suggerimento:_ un grafo non diretto può essere rappresentato usando un'implementazione per grafi diretti in modo che:
+    * per ogni arco (a,b), etichettato w, presente nel grafo, è presente nel grafo anche l'arco (b,a), etichettato w
+  * il grafo dovrà mantenere l'informazione che specifica se è diretto o no
+
+**ESERCIZIO 4**
+
+Implementare:
+
+* le funzioni essenziali per la struttura dati Grafo
+* una funzione che restituisce il peso del grafo
+  * se il grafo non è pesato, la funzione può terminare con un errore
+
+**ESERCIZIO 4 - USO DELLA LIBRERIA**
+
+* Si implementi l'algoritmo di Prim per la determinazione della minima foresta ricoprente del grafo
+* Utilizzare la struttura dati Coda con priorità dell’esercizio 3
+* Se il grafo è costituito da una sola componente connessa, l'algoritmo restituirà un albero, altrimenti restituirà una foresta costituita dai minimi alberi ricoprenti di ciascuna componente connessa
+
+**ESERCIZIO 4 - USO DELLA LIBRERIA E DI PRIM**
+
+* Utilizzare l’algoritmo di Prim sul file _italian_dist_graph.csv_
+  * distanze in metri tra varie località italiane
+  * Formato CSV standard: campi separati da virgole, record separati da fine riga (\n)
+  
+Ogni record contiene i seguenti dati:
+
+* località 1: (tipo stringa) nome della località "sorgente". La stringa può contenere spazi, non può contenere virgole;
+
+* località 2: (tipo stringa) nome della località "destinazione". La stringa può contenere spazi, non può contenere virgole;
+
+* distanza: (tipo float) distanza in metri tra le due località.
+
+* Interpretare le informazioni del file come archi non diretti
+* il file è stato creato a partire da un dataset poco accurato
+  * Dati riportati contengono inesattezze e imprecisioni
+
+**Risultato atteso:** minima foresta ricoprente con 18.640 nodi, 18.637 archi (non orientati) e di peso complessivo di circa 89.939,913 Km

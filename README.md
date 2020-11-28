@@ -11,9 +11,9 @@ Implementare una libreria che offre i seguenti algoritmi di ordinamento:
 * insertion sort
 * merge sort
 
-1. Ogni algoritmo va implementato in modo tale da poter essere utilizzato su un generico tipo T
-* L'implementazione degli algoritmi deve permettere di specificare il criterio secondo cui ordinare i dati
-* Suggerimento: Usare l'interfaccia java.util.Comparator (o, nel caso di una implementazione C, un puntatore a funzione)
+ 1. Ogni algoritmo va implementato in modo tale da poter essere utilizzato su un generico tipo T
+ 2. L'implementazione degli algoritmi deve permettere di specificare il criterio secondo cui ordinare i dati
+ 3. Suggerimento: Usare l'interfaccia java.util.Comparator (o, nel caso di una implementazione C, un puntatore a funzione)
 
 **ESERCIZIO 1: PRIMO USO**
 * File integers.txt con 20 milioni di interi da ordinare

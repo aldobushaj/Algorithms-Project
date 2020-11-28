@@ -79,40 +79,26 @@ edit distance(s1, s2) = min{dnoop, dcanc, dins}
 ```
 
 
-* Si implementi una versione edit_distance_dyn della
-funzione, adottando una strategia di programmazione
-dinamica
- **Nota**: Le definizioni alle slides precedenti non corrispondono
-al modo usuale di definire la distanza di edit, né si prestano ad
-una implementazione iterativa particolarmente efficiente.
-Sono del tutto sufficienti però per risolvere l'esercizio e sono
-quelle su cui dovrete basare la vostra risposta.
+* Si implementi una versione **edit_distance_dyn** della funzione, adottando una strategia di programmazione dinamica.
+ 
+ **Nota**: Le definizioni alle slides precedenti non corrispondono al modo usuale di definire la distanza di edit, né si prestano ad una implementazione iterativa particolarmente efficiente. Sono del tutto sufficienti però per risolvere l'esercizio e sono quelle su cui dovrete basare la vostra risposta.
 
-**ESERCIZIO 2 - USO DELLE
-FUNZIONI**
-• File dictionary.txt
-• elenco delle parole italiane (molte)
-• Parole scritte di seguito, ciascuna su una riga
-• File correctme.txt
-• citazione di John Lennon
-• presenti alcuni errori di battitura
+**ESERCIZIO 2 - USO DELLE FUNZIONI**
+File dictionary.txt :
+  * elenco delle parole italiane (molte)
+  * Parole scritte di seguito, ciascuna su una riga
+File correctme.txt :
+  * citazione di John Lennon
+  * presenti alcuni errori di battitura
 
-ESERCIZIO 2 - USO DELLE
-FUNZIONI
-• Si implementi un'applicazione che usa la funzione
-edit_distance_dyn per determinare, per ogni
-parola w in correctme.txt, la lista di parole in
-dictionary.txt con edit distance minima da w
-• Si sperimenti il funzionamento dell'applicazione e
-si riporti in una breve relazione (circa una pagina) i
-risultati degli esperimenti
+• Si implementi un'applicazione che usa la funzione edit_distance_dyn per determinare, per ogni parola w in correctme.txt, la lista di parole in dictionary.txt con edit distance minima da w.
+• Si sperimenti il funzionamento dell'applicazione e si riporti in una breve relazione (circa una pagina) i risultati degli esperimenti
 
 ## ESERCIZIO 3
 • Si implementi la struttura dati Coda con priorità
 • La struttura dati
-• deve gestire tipi generici
-• consentire un numero qualunque e non noto
-a priori di elementi
+  • deve gestire tipi generici
+  • consentire un numero qualunque e non noto a priori di elementi
 
 ## ESERCIZIO 4
 • Si implementi una libreria che realizza la struttura dati Grafo in modo che sia

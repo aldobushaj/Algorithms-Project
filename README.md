@@ -1,8 +1,7 @@
-# Laboratorio di Algoritmi e Strutture Dati #
+## Laboratorio di Algoritmi e Strutture Dati 
 
 
-
-                                                                    **ESERCIZIO 1**
+**ESERCIZIO 1**
 * Implementare una libreria che offre i seguenti
 algoritmi di ordinamento:
 * insertion sort

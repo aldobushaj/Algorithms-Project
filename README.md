@@ -3,9 +3,9 @@ ESERCIZIO 1
 
 Implementare una libreria che offre i seguenti algoritmi di ordinamento:
 
-insertion sort
+•	insertion sort
 
-merge sort
+•	merge sort
 
 Ogni algoritmo va implementato in modo tale da poter essere utilizzato su un generico tipo T
 

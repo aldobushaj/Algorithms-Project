@@ -1,7 +1,12 @@
-## Laboratorio di Algoritmi e Strutture Dati ##
+## Laboratorio di Algoritmi e Strutture Dati 
+* [ESERCIZIO 1](#ESERCIZIO 1)
+* [ESERCIZIO 2](#ESERCIZIO 2)
+* [ESERCIZIO 3](#ESERCIZIO 3)
+* [ESERCIZIO 4](#ESERCIZIO 4)
 
 
-**ESERCIZIO 1**
+
+## ESERCIZIO 1
 * Implementare una libreria che offre i seguenti
 algoritmi di ordinamento:
 * insertion sort
@@ -44,7 +49,7 @@ in A
 * Si aggiunga un commento sulle prestazioni di questo algoritmo alla
 relazione scritta per la prima parte dell’esercizio
 
-**ESERCIZIO 2**
+## ESERCIZIO 2
 * Si consideri il problema di determinare la distanza di edit tra due
 stringhe (Edit distance)
 * date due stringhe s1 e s2, non necessariamente della stessa
@@ -112,14 +117,14 @@ dictionary.txt con edit distance minima da w
 si riporti in una breve relazione (circa una pagina) i
 risultati degli esperimenti
 
-ESERCIZIO 3
+## ESERCIZIO 3
 • Si implementi la struttura dati Coda con priorità
 • La struttura dati
 • deve gestire tipi generici
 • consentire un numero qualunque e non noto
 a priori di elementi
 
-ESERCIZIO 4
+## ESERCIZIO 4
 • Si implementi una libreria che realizza la struttura dati Grafo in modo che sia
 ottimale per dati sparsi
 • La struttura deve consentire di rappresentare sia grafi diretti che grafi non
